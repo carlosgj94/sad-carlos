@@ -10,17 +10,20 @@ body {
   background: radial-gradient(circle, #e0eaff, #9fe7f5 100%);
 }
 .world .title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #fff;
-  text-shadow: 0 0 7px #000;
+  text-shadow: 0 0 4px #000;
   position: absolute;
   width: 100%;
-  height: 100%;
   margin-top: 25%;
   text-align: center;
+  background-color:  rgba(4, 7, 7, 1);
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
+
 h1 {
-  font-size: 3.5rem;
+  font-size: 4rem;
   padding-bottom: 1rem;
 }
 @media only screen and (max-width: 600px) {
@@ -28,14 +31,17 @@ h1 {
     font-size: 4rem;
     padding-bottom: 3rem;
   }
-}
-h2 {
-  font-size: 2.5rem;
-  margin-top: 1rem;
-}
-@media only screen and (max-width: 600px) {
   h2 {
     font-size: 3.5rem;
     margin-top: 4rem;
   }
+  .world .title {
+    background-color:  rgba(4, 7, 7, 0.95);
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+h2 {
+  font-size: 3rem;
+  margin-top: 1rem;
 }
